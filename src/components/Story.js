@@ -24,7 +24,7 @@ const Story = ({ story, columns, onArchive }) => {
       <span style={{ width: columns.archive.width }}>
         <ButtonInline onClick={() => onArchive(objectID)}>
           Archive
-        </ButtonInline>{' '}
+        </ButtonInline>
       </span>
     </div>
   );
