@@ -21,10 +21,11 @@ const Story = ({ story, columns, onArchive }) => {
         {num_comments}
       </span>
       <span style={{ width: columns.points.width }}>{points}</span>
-      <ButtonInline onClick={() => onArchive(objectID)}>
-        Archive
-      </ButtonInline>
-      <span style={{ width: columns.archive.width }} />
+      <span style={{ width: columns.archive.width }}>
+        <ButtonInline onClick={() => onArchive(objectID)}>
+          Archive
+        </ButtonInline>{' '}
+      </span>
     </div>
   );
 };
