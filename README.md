@@ -1,18 +1,32 @@
-# react-redux-tutorial-starter-kit
+## Hacker news search
 
-[![Slack](https://slack-the-road-to-learn-react.wieruch.com/badge.svg)](https://slack-the-road-to-learn-react.wieruch.com/)
+The application provides search for the [HackerNews](https://news.ycombinator.com/) community site
 
-Starter kit for getting you started with the [React Redux Tutorial for Beginners](https://www.robinwieruch.de/react-redux-tutorial-for-beginners).
+## Motivation
+
+Learning the fundamentals of using Redux with React
+
+![Search preview](https://user-images.githubusercontent.com/30575877/53347993-44abd680-392b-11e9-91d6-998130d14597.png)
+
+## Built with
+
+- [React](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [Redux-saga](https://redux-saga.js.org/)
+
+## Features
+
+- Archiving the stories for further reading
 
 ## Installation
 
-* `git clone git@github.com:rwieruch/react-redux-tutorial-starter-kit.git`
-* cd react-redux-tutorial-starter-kit
-* npm install
-* npm start
-* visit `http://localhost:3000`
+    git clone git@github.com:feofan-msk/hacker-news-search.git
+    cd hacker-news-search
+    npm install
+    npm start
+    visit http://localhost:3000
 
-## Want to learn more about React + Redux?
+## Credits
 
-* Don't miss [upcoming Tutorials and Courses](https://www.getrevue.co/profile/rwieruch)
-* Check out current [React Courses](https://roadtoreact.com)
+- [Robin Wieruch's article](https://www.robinwieruch.de/react-redux-tutorial/)
+- [Hacker News API](https://hn.algolia.com/api)
